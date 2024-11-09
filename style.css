@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B5CA8D;
+    padding: 1.25rem;
+  }
+  
+  #mainDiv {
+    width: 100%;
+    max-width: 50rem;
+    padding: 1.25rem;
+    border-radius: .3125rem;
+    background-color:#8bb174;
+    box-shadow: .75rem .75rem  .5rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.875rem;
+    border: .125rem solid #2A4849 ;
+    padding-bottom: 2.1875rem;
+  }
+  
+  img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .personal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .personal h1 {
+    font-size: 42px;
+    color: #1b1b1b;
+    margin-left: .9375rem;
+    
+  }
+  
+  .personal h2 {
+    font-size: 27px;
+    margin-top: .3125rem;
+    color: #1b1b1b;
+    margin-left: 1.5rem;
+    
+  }
+  
+  .contact-info {
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    padding: .9375rem;
+    background-color:#2A4849;
+    border-radius: .3125rem;
+    margin-top: 1.25rem;
+    color: rgb(224, 223, 223);
+  }
+  
+  .contact-info .para {
+    font-size: 1rem;
+    color: rgb(217, 217, 217);
+  }
+  
+  .heading {
+    font-size: 1.75rem;
+    color: #000000;
+    padding: .625rem;
+    background-color: #2A4849;
+    border-radius: .3125rem;
+    margin-top: 1.875rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+  
+  
+  .contPara {
+    font-size: 1.25rem;
+    margin-top: 1.125rem;
+    font-family: serif;
+    color: rgb(44, 43, 43);
+    margin-left: .625rem;
+    
+  }
+  
+  #skillSec ul {
+    margin-left: 1.375rem;
+    margin-top: .9375rem;
+  }
+  
+  #btnDiv {
+    width: 100%;
+    max-width: 50rem;
+    padding: 1.25rem;
+    text-align: center;
+    background-color:#8bb174;
+    border-radius: .3125rem;
+    border: .125rem solid #2A4849;
+    box-shadow: .75rem .75rem  .5rem rgba(0, 0, 0, 0.1);
+  }
+  #btnDiv h3{
+      font-size: 1.875rem;
+      margin-bottom: .625rem;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .btn {
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: .625rem 1.25rem;
+    margin: .3125rem;
+    margin-top: .625rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: #2A4849;
+    color: #ffffff;
+    
+  }
+  
+  .btn:hover {
+    background-color: #bddb85;
+  }
+  .btn:active{
+    transform: scale(0.90);
+  }
+  
+  .sp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 48rem) {
+    #mainDiv, #btnDiv {
+      width: 100%;
+    }
+  
+    .personal {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    img {
+      margin-top: 1.25rem;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 100%;
+      margin: .625rem 0;
+    }
+  }
+  
+  #objectiveSec{
+    display: block;
+  }
+  
+  #eduSec{
+    display: block;
+  }
+  
+  #skillSec{
+    display: block;
+  }
+  
+  #workExpSec{
+    display: block;
+  }
